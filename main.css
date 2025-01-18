@@ -1,0 +1,326 @@
+@font-face{
+    font-family: 'MouseMemoirs';
+    src:url('./fonts/MouseMemoirs-Regular.ttf');
+    font-weight: bold;
+    font-style: bold;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'MouseMemoirs';
+    font-weight: bold;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+	margin: 0;
+	padding: 0;
+}
+.projects-title-container{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.title{
+	font-size: 40px;
+	color: white;
+}
+.page-container{
+	background-color: #2B2B2C;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+}
+.nav{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	width: 100%;
+}
+.logo-container{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 150px;
+}
+.logo{
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+}
+.nav-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding-right: 100px;
+}
+.nav-menu li{
+	padding-right: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	list-style: none;
+	cursor: pointer;
+}
+.nav-menu li:hover{
+	color:#DF0505;
+}
+.t-active{
+	color:#DF0505;
+}
+.introduction-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	width: 100%;
+}
+.avatar-in{
+	height: 100%;
+	width:40%;
+}
+.avatar-in img{
+	height: 100%;
+	width: 100%;
+}
+.intro-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 100%;
+	width: 60%;
+	padding-left: 20px;
+}
+.intro-text{
+	margin-top: 100px;
+}
+.intro-text span, h1,p,button{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.btn{
+	height: 45px;
+	width: 150px;
+	outline: none;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	background-image: linear-gradient(to right, #6C0404, #DF0505);
+	cursor: pointer;
+	font-family: 'MouseMemoirs';
+	font-size: 20px;
+}
+.introb-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+}
+.btn:hover{
+	background-image: none;
+	background-color: white;
+	color: black;
+}
+.widget-container{
+	height: 900px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+.tools-container{
+	height: 2000px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.f-color{
+	height: 100%;
+	width: 50%;
+	background-color:#353535;
+	margin: 0;
+	padding: 0;
+}
+.s-color{
+	height: 100%;
+	width: 50%;
+	background-color:#2b2b2c;
+	margin: 0;
+	padding: 0;
+}
+.f-colort{
+	height: 50%;
+	width: 100%;
+	background-color:#2b2b2c;
+	margin: 0;
+	padding: 0;
+}
+.s-colort{
+	height: 50%;
+	width: 100%;
+	background-color:#353535;
+	margin: 0;
+	padding: 0;
+}
+.projects-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	height: 350px;
+	position: relative;
+	bottom: 2750px;
+}
+.project-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 400px;
+	margin-right: 10px;
+	background-color: #464646;
+	cursor: pointer;
+}
+.project-card p{
+	text-align: center;
+}
+.project-card:hover{
+	background-color: #515151;
+}
+.active{
+	background-color: #CC1C1C;
+}
+.active:hover{
+	background-color: white;
+	color: black;
+}
+.active:hover .lda{
+	color:#DF0505 ;
+}
+.wi{
+	font-size: 45px;
+}
+.ld{
+	color:#DF0505;	
+}
+.lda{
+	color:white;
+}
+.ld:hover{
+	text-decoration: underline;
+}
+.tech-logo{
+	height: 50px;
+	width: 50px;
+}
+.tech-title-container{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 1200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.tecno-container{
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto;
+	justify-content: center;	
+	align-items: center;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	top:1300px;
+}
+.tecno-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 400px;
+	background-color: #464646;
+	cursor: pointer;
+}
+.tecno-card img, span, p{
+	margin-top: 8px;
+	margin-bottom: 8px;	
+}
+#pcb{
+	grid-row-end: span 2;
+}
+@media (min-width: 375px) and (max-width: 480px){
+	.logo-container{
+		display: none;
+	}
+	.logo{
+		display: none;
+	}
+	.nav-menu{
+
+	}
+	.projects-title-container{
+		top:700px;
+	}
+	.projects-container{
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		height: 100%;
+	}
+	.project-card{
+		margin: 5px;
+		width: 80%;
+	}
+	.tech-title-container{
+		top: 1500px;
+	}
+	.tecno-container{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow-y: auto;
+		height: 1600px;
+		width: 100%;
+		top: 1600px;
+	}
+	.tecno-card {
+		height: 300px;
+		width: 80%;
+	}
+	.tecno-card p{
+		text-align: center;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
