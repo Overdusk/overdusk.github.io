@@ -14,7 +14,7 @@
 			</div>
 			<ul class="nav-menu">
 				<li class="t-active">Home</li>
-				<li>Projects</li>
+				<li id="projectsBtn">Projects</li>
 				<li>About</li>
 				<li>Contact</li>
 				<li>Other Page</li>
@@ -54,7 +54,7 @@
 			<div class="s-colort"></div>
 		</div>
 		<div class="projects-title-container">
-			<span class="title">Projects</span>
+			<span class="title" id="projects">Projects</span>
 		</div>
 		<div class="projects-container">
 			<div class="project-card">
@@ -128,5 +128,14 @@
 			</div>
 		</div>
 	</div>
+	<script>
+
+		function scrollToProjects()
+		{
+			document.getElementById('projects').scrollIntoView({behavior: 'smooth', block: 'center'});
+		}
+		const projectsNavBtn = document.querySelector('#projectsBtn');
+		projectsNavBtn.addEventListener('click', scrollToProjects);
+	</script>
 </body>
 </html>
